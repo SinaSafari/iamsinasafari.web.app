@@ -18,7 +18,7 @@ const HomePage = () => {
       <div className="flex items-center flex-col">
         <Hero data={SvHeroContent} />
         <Intro data={SvIntroContent} />
-        <TimeLine data={SvTimelineContent} />
+        <TimeLine data={SvTimelineContent} locale={"sv"} />
         <UsesThis data={SvUsesthisContent} />
         <SocialAndContactMe data={SvSocialContent} />
       </div>

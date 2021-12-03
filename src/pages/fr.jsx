@@ -18,7 +18,7 @@ const HomePage = () => {
       <div className="flex items-center flex-col">
         <Hero data={FrHeroContent} />
         <Intro data={FrIntroContent} />
-        <TimeLine data={FrTimelineContent} />
+        <TimeLine data={FrTimelineContent} locale={"fr"} />
         <UsesThis data={FrUsesthisContent} />
         <SocialAndContactMe data={FrSocialContent} />
       </div>
