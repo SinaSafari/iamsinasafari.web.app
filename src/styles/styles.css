@@ -1,0 +1,16 @@
+.dotted_area {
+  @apply absolute w-28 h-28;
+}
+
+.dottet_area_one {
+  background-image: radial-gradient(pink 4px, transparent 4px);
+  bottom: 0;
+  left: 20px;
+  background-size: 28px 28px;
+}
+.dotted-area_tow {
+  background-image: radial-gradient(yellow 4px, transparent 4px);
+  top: -20;
+  right: 0;
+  background-size: 28px 28px;
+}
